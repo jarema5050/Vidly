@@ -1,0 +1,15 @@
+﻿@using Vidly.Models
+@model Vidly.Models.Movie
+
+
+<h1>@Model.Name</h1>
+
+<ul>
+
+        <li>Date Added:@Model.DateAdded</li>
+        <li>Release Date:@Model.ReleaseDate</li>
+        <li>Genre Name:@Model.Genre.Name</li>
+        <li>Number in stock:@Model.NumberInStock</li>
+        <li>Id:@Model.Id</li>
+ 
+</ul>
